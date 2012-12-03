@@ -1,0 +1,22 @@
+{
+    "name": "CI Monitor",
+    "version": "0.1.0",
+    "manifest_version": 2,
+
+    "description": "Show CI projects status on a big monitor(dev)",
+    "icons": {
+        "16": "img/16.png",
+        "128": "img/128.png",
+        "256": "img/256.png"
+    },
+
+    "app": {
+        "launch": {
+            "local_path": "monitor.html"
+        }
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "<all_urls>"
+    ]
+}
