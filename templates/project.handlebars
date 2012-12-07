@@ -1,0 +1,9 @@
+<div class="project {{status}}">
+    {{#if is_building}}
+    <div class="building-progress layer">
+        <div class="bar" style="width: {{../building_progress}}%;"></div>
+    </div>
+    {{/if}}
+    <div class="info layer">{{name}}</div>
+</div>
+
